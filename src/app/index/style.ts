@@ -15,11 +15,6 @@ export const styles = StyleSheet.create({
         borderRadius: 24
     },
 
-    subtitle: {
-    color: "#A69076",
-    marginTop: 4
-    },
-
     restaurantName: {
         fontSize: 26,
         fontWeight: "bold",
@@ -31,7 +26,7 @@ export const styles = StyleSheet.create({
     restaurantOpcao: {
         fontSize: 20,
         marginTop: 10,
-        color: "#333",
+        color: "#A69076",
     },
 
     restaurantDescri: {
