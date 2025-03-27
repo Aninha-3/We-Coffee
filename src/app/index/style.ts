@@ -3,7 +3,7 @@ import { StyleSheet } from "react-native";
 export const styles = StyleSheet.create({
     container : {
         flex: 1,
-        backgroundColor: "#F22F2"
+        backgroundColor: "#F2F2F2"
     },
     header:{
     padding: 16
@@ -22,5 +22,31 @@ export const styles = StyleSheet.create({
     subtitle: {
     color: "#666",
     marginTop: 4
-    }
+    },
+
+    produtos: {
+        padding: 16,
+        backgroundColor: "#F2F2F2",
+        flexDirection: "row"
+    },
+
+    produtoImage: {
+        width: 80,
+        height: 80,
+        borderRadius: 20,
+        marginRight: 16
+    },
+
+    produtoName: {
+        fontSize: 16,
+        fontWeight: "bold",
+        marginTop: 8,
+     
+    },
+
+    ingredientes: {
+        fontSize: 14,
+        color: "#666",
+        marginTop: 4
+    },
 })

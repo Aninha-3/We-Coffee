@@ -39,5 +39,17 @@
     "react-test-renderer": "18.3.1",
     "typescript": "~5.3.3"
   },
-  "private": true
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aninha-3/mobileWecoffe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aninha-3/mobileWecoffe/issues"
+  },
+  "homepage": "https://github.com/Aninha-3/mobileWecoffe#readme",
+  "description": ""
 }
