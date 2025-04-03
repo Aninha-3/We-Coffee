@@ -83,6 +83,45 @@ export const styles = StyleSheet.create({
         color: "#A69076",
         fontSize: 14,
         marginVertical: 2,
-    }
-
+    },
+    tabs: {
+        flexDirection: "row",
+        padding: 16,
+        borderBottomColor: "#eee",
+        borderBottomWidth: 1,
+        gap: 16
+     },
+     tabsName: {
+        color: "#666"
+     },
+     subtitle: {
+        color: "#666",
+        marginTop: 4
+     },
+     menuList: {
+        padding: 16,
+        flex: 1
+     },
+     menuContent: {
+        flex: 1,
+        marginRight: 16
+     },
+     itemName: {
+        fontSize: 16,
+        fontWeight: "bold"
+     },
+     itemDescription: {
+        color: "#666",
+        marginTop: 4
+     },
+     itemPrice: {
+        fontSize: 16,
+        fontWeight: "bold",
+        marginTop: 8
+     },
+     itemImage: {
+        width: 80,
+        height: 80,
+        borderRadius: 8
+     },
 })
