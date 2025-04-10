@@ -7,25 +7,26 @@ import { Link } from 'expo-router';
 const menuItems = [
     {
         id: "1",
-        name: "Expresso",
-        description: "Cafe exresso, nota 6 de intensidade.",
-        price: 10.90,
-        image: require("@/assets/images/cafe.jpg")
-    },
-    {
-        id: "2",
-        name: "Chá gelado",
+        name: "Chá gelado de frutas",
         description: "Chá de frutas vermelhas com leite.",
         price: 25.00,
         image: require("@/assets/images/img2.png")
     },
     {
+        id: "2",
+        name: "Expresso",
+        description: "Café expresso, nota 6 de intensidade.",
+        price: 10.90,
+        image: require("@/assets/images/cafe.jpg")
+    },
+    {
         id: "3",
-        name: "Bombom",
-        description: "4 peças de bombom de diversos sabores.",
+        name: "Bombom gormet",
+        description: "Bombom de chocolate com recheio de avelã.",
         price: 50.00,
-        image: require("@/assets/images/img3.webp")
+        image: require("@/assets/images/img3.png")
     }
+    
 ];
 
 export default function Index() {
@@ -33,12 +34,12 @@ export default function Index() {
         <View style={styles.container}>
         <View style={styles.header}>
             <Image style={styles.headerImage} source={require("@/assets/images/we-coffee-entrada.jpeg")}/>
-            <Text style={styles.restaurantName}>MZ Donalds</Text>
-            <Text style={styles.subtitle}>O melhor fast food do mundo</Text>
+            <Text style={styles.restaurantName}>We coffee</Text>
+            <Text style={styles.subtitle}>A melhor cafeteria do mundo</Text>
         </View>
 
         <View style={styles.tabs}>
-            {["Combos", "Lanches", "Promoção"].map((item) => (
+            {["Combos", "Bebidas", "Sobemesas"].map((item) => (
                 <TouchableOpacity>
                     <Text style={styles.tabsName}>{item}</Text>
                 </TouchableOpacity>

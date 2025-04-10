@@ -42,7 +42,7 @@ export const styles = StyleSheet.create({
         marginBottom: 10,
         borderRadius: 10,
         alignItems: "center",
-        shadowColor: "#000",
+        shadowColor: "#c5a28b",
         shadowOffset: { width: 0, height: 2 },
         shadowOpacity: 0.1,
         shadowRadius: 3,
@@ -60,7 +60,7 @@ export const styles = StyleSheet.create({
     menuTitle: {
         fontSize: 18,
         fontWeight: "bold",
-        color: "#222",
+        color: "#705f5f",
     },
     menuDescription: {
         fontSize: 14,
@@ -73,6 +73,52 @@ export const styles = StyleSheet.create({
         color: "#BFA58E",
     },
 
+    tabs: {
+        flexDirection: "row",
+        padding: 16,
+        borderBottomColor: "#eee",
+        borderBottomWidth: 1,
+        gap: 16
+    },
+    tabsName: {
+        color: "#666"
+    },
+    subtitle: {
+        display: "flex",
+        justifyContent: "center",
+        color: "#666",
+        fontSize: 20,
+        marginTop: 6
+    },
+    menuList: {
+        padding: 16,
+        flex: 1
+    },
+    menuContent: {
+        flex: 1,
+        marginRight: 16
+    },
+    itemName: {
+        fontSize: 20,
+        fontWeight: "bold",
+        color: "#705f5f",
+        marginTop: 6
+    },
+    itemDescription: {
+        color: "#666",
+        marginTop: 4
+    },
+    itemPrice: {
+        fontSize: 16,
+        color: "#443c3c",
+        fontWeight: "bold",
+        marginTop: 8
+    },
+    itemImage: {
+        width: 100,
+        height: 110,
+        borderRadius: 8
+    },
     footer: {
         backgroundColor: "#D9CEC1",
         padding: 10,
@@ -84,44 +130,4 @@ export const styles = StyleSheet.create({
         fontSize: 14,
         marginVertical: 2,
     },
-    tabs: {
-        flexDirection: "row",
-        padding: 16,
-        borderBottomColor: "#eee",
-        borderBottomWidth: 1,
-        gap: 16
-     },
-     tabsName: {
-        color: "#666"
-     },
-     subtitle: {
-        color: "#666",
-        marginTop: 4
-     },
-     menuList: {
-        padding: 16,
-        flex: 1
-     },
-     menuContent: {
-        flex: 1,
-        marginRight: 16
-     },
-     itemName: {
-        fontSize: 16,
-        fontWeight: "bold"
-     },
-     itemDescription: {
-        color: "#666",
-        marginTop: 4
-     },
-     itemPrice: {
-        fontSize: 16,
-        fontWeight: "bold",
-        marginTop: 8
-     },
-     itemImage: {
-        width: 80,
-        height: 80,
-        borderRadius: 8
-     },
 })
