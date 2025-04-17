@@ -23,6 +23,8 @@ const styles = StyleSheet.create({
         marginBottom: 10,
         borderRadius: 24,
         backgroundColor: "#f9f9f9",
+        width: "70%",
+        height: 40,
     },
     button: {
         backgroundColor: "#BFAC95",
@@ -38,9 +40,6 @@ const styles = StyleSheet.create({
         alignItems: "center",
         color: "#F5F4F2",
         fontSize: 16,
-    },
-    backButton: {
-        backgroundColor: "#F5F4F2",
     },
     backButtonText: {
         color: "#BFAC95",

@@ -1,26 +1,36 @@
 import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
-    container : {
+    container: {
         flex: 1,
         backgroundColor: "#F2F2F2"
     },
-    header:{
-    backgroundColor: "#F2F2F2",
-    padding: 16
+    header: {
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        backgroundColor: "#F2F2F2",
+        padding: 16
     },
-    headerImage:{
+    headerImage: {
         width: "100%",
         height: 240,
         borderRadius: 24
     },
 
     restaurantName: {
-        fontSize: 26,
+        fontSize: 30,
         fontWeight: "bold",
         marginTop: 10,
         color: "#A69076",
         textAlign: "center",
+    },
+
+    subtitle: {
+        fontSize: 20,
+        color: "#A69076",
+        marginTop: 6,
+       
     },
 
     restaurantOpcao: {

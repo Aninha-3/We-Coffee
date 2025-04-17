@@ -5,7 +5,7 @@ import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
     produto: {
         flex: 1,
-       alignItems: "center",
+        alignItems: "center",
     },
     imagemProduto: {
         marginTop: 10,
@@ -17,12 +17,20 @@ const styles = StyleSheet.create({
     continer: {
         position: "absolute",
         top: 500,
-        width: "90%",
-        height: "50%",
-        backgroundColor: "#d1b6b6",
+        width: "95%",
+        height: "100%",
+        backgroundColor: "#e0d3d3",
         borderRadius: 25,
-        padding: 20,
+        paddingBottom: 50,
+        paddingVertical: 50,
+        paddingTop: 20,
         alignItems: "center",
+        paddingRight: 20,
+        paddingLeft: 10
+        
+    },
+    infoContiner: {
+       alignItems: "center"
     },
     titulo: {
         fontSize: 30,
@@ -33,29 +41,69 @@ const styles = StyleSheet.create({
         textShadowColor: "#b9acac",
         textShadowOffset: { width: 0, height: 1 },
         textShadowRadius: 1,
-    },
+    },  
     price: {
-        display: "flex",
-      
-        fontWeight: "bold",
-        color: "#473b3b",
-        marginTop: 20
-    },
-    pirceButton: {
-        backgroundColor: "#b0a3a3",
         width: "100%",
         height: 50,
-        borderRadius: 25,
-        justifyContent: "center",
-        alignItems: "center",
+        fontSize: 20,
+        textAlign: "right",
         marginTop: 20,
+        fontWeight: "bold",
+        color: "#473b3b",
     },
     descricao: {
         fontSize: 16,
         color: "#705f5f",
-        marginTop: 30,
+        marginTop: 20,
         marginLeft: 20,
     },
-    });
+    tamanhoCopo: {
+        display: "flex",
+        fontSize: 16,
+        color: "#705f5f",
+        fontWeight: "bold",
+        width: "100%",
+        height: 50,
+        padding: 10,
+    },
+    tamanhoCopos: {
+        display: "flex",
+        flexDirection: "row",
+        gap: 10,
+        justifyContent: "space-between",
+        alignItems: "center",
+        marginTop: 10,
+        width: "100%",
+        height: 40,
+        padding: 10,
+        paddingLeft: 15,
+        backgroundColor: "#e0d3d3",
+        borderRadius: 25,
+        borderColor: "#473b3b" ,
+    }, 
+    copoBorder: {
+        borderWidth: 1,
+        borderColor: "#473b3b",
+        backgroundColor: "#e0d3d3",
+        borderRadius: 25
+    },
+    button: {
+        backgroundColor: "#92675f",
+        width: 160,
+        height: 50,
+        padding: 20,
+        borderRadius: 24,
+        alignItems: "center",
+        justifyContent: "center",
+        marginTop: 10,
+    },
+    buttonText: {
+        display: "flex",
+        alignItems: "center",
+        color: "#f1e8e8",
+        fontWeight: "bold",
+        fontSize: 16,
+    }
+});
 
 export default styles;

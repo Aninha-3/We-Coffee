@@ -18,8 +18,8 @@ export default function PaginaDeCadastro() {
             </TouchableOpacity>
             </Link>
           <Link href="/" asChild>
-          <TouchableOpacity style={styles.button, styles.backButton}>
-                <Text style={[styles.backButtonText]}>Voltar ao inicio!</Text>
+          <TouchableOpacity style={[styles.button, styles.backButton]}>
+                <Text style={[styles.backButtonText]}>Voltar ao Login!</Text>
             </TouchableOpacity>
             </Link>
         </View>
